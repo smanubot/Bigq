@@ -1,6 +1,6 @@
 # Python code to demonstate String encoding
 a = 'jenkinsforclorox'
-c = b'GeeksforGeeks'
+c = b'jenkinsforclorox'
 # using encode() to encode the String
 # encoded version of a is stored in d
 # using ASCII mapping
