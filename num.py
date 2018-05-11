@@ -1,22 +1,14 @@
 # Python program to demonstrate 
 # basic array characteristics
 import numpy as np
- 
-# Creating array object
-arr = np.array( [[ 1, 2, 3],
-                 [ 4, 2, 5]] )
- 
-# Printing type of arr object
-print("Array is of type: ", type(arr))
- 
-# Printing array dimensions (axes)
-print("No. of dimensions: ", arr.ndim)
- 
-# Printing shape of array
-print("Shape of array: ", arr.shape)
- 
-# Printing size (total number of elements) of array
-print("Size of array: ", arr.size)
- 
-# Printing type of elements in array
-print("Array stores elements of type: ", arr.dtype)
+# Python code to demonstate String encoding
+a = 'jenkinsforclorox'
+c = b'GeeksforGeeks'
+# using encode() to encode the String
+# encoded version of a is stored in d
+# using ASCII mapping
+d = a.encode('ASCII')
+# checking if a is converted to bytes or not
+if (d==c):
+    print ("Encoding successful")
+else : print ("Encoding Unsuccessful")
