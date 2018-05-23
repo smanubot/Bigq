@@ -20,8 +20,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("project", help = "Project Identifier")
     parser.add_argument("datasetid", help="Name of the dataset")
-   # parser.add_argument("input_directory", help = "Name of the Directory which contains the excel files")
-
+   
     logging.getLogger().setLevel(logging.INFO)
     args = parser.parse_args()
     run(args)
