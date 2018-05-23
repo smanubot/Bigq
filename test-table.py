@@ -1,6 +1,5 @@
 import argparse
 import logging
-import pandas as pd
 import os
 from google.cloud import bigquery
 def create(bq_client,datasetid):
